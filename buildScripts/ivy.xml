@@ -39,6 +39,10 @@
 		<dependency org="projectlombok.org" name="markdownj" rev="1.02b4" conf="buildBase->build" />
 		<dependency org="de.java2html" name="java2html" rev="5.0" conf="buildBase->default" />
 		<dependency org="org.freemarker" name="freemarker" rev="2.3.28" conf="buildBase->default" />
+
+		<!--<dependency org="org.springframework.web" name="spring-context" rev="5.1.6.RELEASE" conf="buildBase->default"/>-->
+		<dependency org="org.springframework.security" name="spring-security-web" rev="5.1.6.RELEASE" conf="buildBase->default"/>
+		<dependency org="org.springframework.security" name="spring-security-core" rev="5.1.5.RELEASE" conf="buildBase->default"/>
 		
 		<dependency org="net.java.openjdk.custom" name="javac6" rev="1.6.0.18" conf="javac6->runtime; contrib->sources" />
 		<dependency org="net.java.openjdk.custom" name="javac7" rev="1.7.0" conf="javac7->runtime; contrib->sources" />
